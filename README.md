@@ -58,4 +58,4 @@ https://hackernoon.com/lexical-analysis-861b8bfe4cb0
     * __Natalie__: Learned a lot about listeners and interaction across modules. I thought it was a pretty fun project!
     * __Peter__:
     * __Seung-Woo__: 
-    * __Amy__: Quite interesting Project and it was good experience with MVC design. It was definitely hard with parsing and handling functions when implementing multiple turtles.
+    * __Amy__: Quite interesting Project and it was good experience with MVC design.
