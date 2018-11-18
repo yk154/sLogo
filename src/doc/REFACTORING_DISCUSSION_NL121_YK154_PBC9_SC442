@@ -1,0 +1,20 @@
+Refactoring Discussion
+========
+
+**Disclaimer:** The Checklist website was not working during our lab; it only displayed the number of issues, rather than the issues themselves (and where they were located in the code). Because of this, we tried to stay within the parameters of the lab, but it was not entirely based off of Checklist feedback. 
+
+
+#### Discussion on refactoring Commands 
+* As a group we had a discussion about splitting splitting the Command class into subclasses so that we may create a Command list through reflection rather than having to use a long if statement. However, we decided not to refactor all the different commands into subclasses due to difficulties attempting to preserve Listener functionality while refactoring. 
+
+#### Duplicate Code
+Our getCommandList method (now in CmdParser) contained lots of duplicate code.  We separated this code into a private method to provide better readability and shorten the length of the original method.
+
+### Checklist Refactoring
+Within both front- and back-end components, there were many magic values that needed to be addressed. 
+
+#### Magic Values
+There were several magic values in CmdParser that represented paths to various properties files.  We replaced these with final variables in the class. The same changes had to be made in the TurtleView classes, as well as UIPreferences.
+
+#### Design Modularity
+Our CommandFactory class had several methods that hindered it from following the Factory design pattern.  We moved these methods elsewhere to leave only one method in CommandFactory: getNewCommand.  This provides more clarity on the purpose of the CommandFactory class within our program.

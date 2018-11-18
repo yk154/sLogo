@@ -1,0 +1,8 @@
+repetir 18 [
+  fr 50
+  direita 150
+  fr 60
+  direita 100
+  fr 30
+  direita 90
+]

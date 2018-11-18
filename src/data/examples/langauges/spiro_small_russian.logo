@@ -1,0 +1,15 @@
+glavnaya
+
+povtorite 30
+[
+  povtorite 20
+  [
+    vr 10
+    pr 10
+  ]
+  repeat 10
+  [
+    vr 20
+    pr 100
+  ]
+]

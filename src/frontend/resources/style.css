@@ -1,0 +1,249 @@
+.langbox-wrapper {
+    -fx-font-family: "Verdana";
+    -fx-max-width: 120;
+}
+
+.langbox-wrapper:hover {
+    -fx-cursor: hand;
+}
+
+.settings-wrapper {
+    -fx-alignment: center;
+    -fx-background-color: seashell;
+}
+
+.scenebtn:hover {
+    -fx-cursor: hand;
+}
+
+.grid-wrapper{
+    -fx-background-color: seashell;
+}
+
+.tab-pane {
+    -fx-background-color: seashell;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: seashell;
+    -fx-border-width: 0 0 1.5 0;
+    -fx-border-color: transparent transparent white transparent;
+}
+
+
+.tab-pane .tab {
+    -fx-background-color: bisque;
+
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #d6afbd;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-text-fill: dimgrey;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+.combo-box {
+    -fx-background-color: seashell;
+    -fx-border-color: grey;
+    -fx-border-style: dotted;
+}
+
+
+.turtle-chooser {
+    -fx-border-color: transparent;
+    -fx-text-fill: transparent;
+}
+
+.turtle-chooser > .combo-box-popup > .list-view {
+    -fx-pref-width: 87;
+    -fx-padding: 3;
+}
+
+.turtle-chooser .arrow {
+    -fx-padding: 0;
+}
+
+.myPaper-wrapper {
+    -fx-background-color: white;
+    /*-fx-background-insets: 0 0 10 0;*/
+    -fx-background-radius: 3;
+    /*-fx-effect: dropshadow(three-pass-box, grey, 15, 0, 0, 0);*/
+}
+
+.icons-wrapper{
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-background-color: seashell;
+}
+
+
+.turtle-wrapper:hover{
+    -fx-cursor: hand;
+}
+
+.color-picker {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-background-color: transparent;
+}
+
+.pen-wrapper .label {
+    -fx-graphic: url("edit.png");
+    -fx-padding: 0;
+}
+
+.color-picker .arrow, .color-picker .arrow-button {
+    -fx-padding: 0;
+}
+
+.pen-wrapper:hover{
+    -fx-cursor: hand;
+}
+
+.palette-wrapper .label{
+    -fx-graphic: url("background.png");
+    -fx-padding: 0;
+}
+
+.palette-wrapper{
+    -fx-cursor: hand;
+}
+
+.buttons-wrapper{
+    -fx-padding: 15 0 0 10;
+}
+
+.send-wrapper{
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-background-color: yellowgreen;
+}
+
+.send-wrapper:hover{
+    -fx-cursor: hand;
+}
+
+.help-wrapper{
+    -fx-text-fill: white;
+    -fx-font-size: 17;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-background-color: gold;
+}
+
+.help-wrapper:hover{
+    -fx-cursor: hand;
+}
+
+.text-area {
+    -fx-font-size: 17;
+    -fx-display-caret: true;
+    -fx-padding: 10px;
+    -fx-border-insets: 10px;
+    -fx-background-insets: 10px;
+}
+
+.text-area .content {
+    -fx-background-color: floralwhite;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-padding: 6 10 9 10;
+}
+
+.list-cell {
+    -fx-background-color: transparent, -fx-background ;
+}
+
+.list-cell:empty {
+    -fx-background-color: transparent ;
+}
+
+.inputCommand-wrapper:focused {
+    -fx-effect: dropshadow(GAUSSIAN, white, 1, 1, 0, 0);
+}
+
+.listview-wrapper {
+    -fx-background-insets: 6 10 9 10;
+    -fx-background-color: bisque;
+}
+
+.viewReturned-wrapper{
+    -fx-background-insets: 6 10 9 10;
+    -fx-background-color: bisque;
+}
+
+.slider {
+    -fx-show-tick-labels: false;
+    -fx-show-tick-marks: false;
+}
+
+.UpandDown {
+    -fx-show-tick-labels: true;
+    -fx-show-tick-marks: true;
+}
+
+.dialog {
+    -fx-background-color: black;
+}
+
+.plusBtn {
+    -fx-background-color: transparent;
+}
+
+.error-wrapper {
+    -fx-background-color: #FFE4E1;
+    -fx-font-size: 15;
+    -fx-font-weight: bolder;
+    -fx-text-fill: #8B0000;
+    -fx-padding: 20;
+    -fx-background-insets: 6 0 9 10;
+}
+
+.viewReturned-wrapper {
+    -fx-padding: 5 10 6 10;
+}
+
+.switch {
+    -fx-max-width: 60;
+    -fx-show-tick-labels: true;
+    -fx-show-tick-marks: false;
+}
+
+.turtleRotation {
+    -fx-show-tick-labels: true;
+    -fx-show-tick-marks: false;
+}
+
+.console-wrapper{
+    -fx-background-color: seashell;
+}
+
+.listbox-wrapper {
+    -fx-background-color: seashell;
+}
+
+.varbox-wrapper {
+    -fx-background-color: seashell;
+}
+
+.btnbox-wrapper {
+    -fx-background-color: seashell;
+}
